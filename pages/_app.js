@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
   return <>
   <Head>
     <title>Dylan's Portfolio</title>
-    <meta name="description" content="Dylan Steele's digital portfolio" />
+    <meta name="description" content="Dylan Steele&apos;s digital portfolio" />
     <link rel="icon" href='/favicon.ico' />
   </Head>
     <header>
