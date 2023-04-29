@@ -2,26 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html {
+  scroll-behavior: smooth !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+@layer base {
+  body {
+    @apply text-black tracking-wide
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway] mt-2 mb-4
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl mt-2 mb-4
+  }
+
+  p {
+    @apply mb-2
+  }
+  
+  li {
+    @apply cursor-pointer
+  }
+
+  a {
+    @apply text-blue-900 underline hover:underline-offset-4 focus:outline-dashed focus:outline-blue-900 focus:outline-offset-2
+  }  
+
+  button {
+    @apply shadow-sm shadow-gray-400 rounded-md uppercase bg-[#2547bc] text-white font-bold p-2 hover:scale-105 ease-in duration-300
+  }
+
+  #navbar li {
+    @apply py-4 md:ml-10
+  }
+
+  #navbar a {
+    @apply text-black uppercase no-underline font-bold hover:border-b-2 hover:border-b-black
+  }
 }
