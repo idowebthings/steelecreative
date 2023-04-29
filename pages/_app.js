@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 export default function App({ Component, pageProps }) {
   return <>
   <Head>
-    <title>Dylan's Portfolio</title>
+    <title>Dylan&apos;s Portfolio</title>
     <meta name="description" content="Dylan Steele&apos;s digital portfolio" />
     <link rel="icon" href='/favicon.ico' />
   </Head>
