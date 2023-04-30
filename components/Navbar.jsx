@@ -74,7 +74,7 @@ const Navbar = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link href='/' className='md:hidden '>
-                                <Image src='/../public/images/sc-logo.png' alt='Steele Creative' width='200' height='77' />
+                                <Image src={scLogo} alt='Steele Creative' width='200' height='77' />
                             </Link>
                             <div onClick={handleNav} className='rounded-full shadow-sm shadow-stone-400 hover:shadow-stone-700 p-3 cursor-pointer ease-in duration-300'>
                                 <AiOutlineClose />
@@ -83,21 +83,31 @@ const Navbar = () => {
                     </div>
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
+                        <li>
                             <Link href='/'>
-                                <li>Home</li>
+                                Home
                             </Link>
+                        </li>
+                        <li>
                             <Link href='/about'>
-                                <li className='py-4 text-sm hover:border-b'>About</li>
+                                About
                             </Link>
+                        </li>
+                        <li>
                             <Link href='/portfolio'>
-                                <li className='py-4 text-sm hover:border-b'>Portfolio</li>
+                                Portfolio
                             </Link>
+                        </li>
+                        <li>
                             <Link href='/credentials'>
-                                <li className='py-4 text-sm hover:border-b'>Credentials</li>
+                                Credentials
                             </Link>
+                        </li>
+                        <li>
                             <Link href='/contact'>
-                                <li className='py-4 text-sm hover:border-b'>Contact</li>
+                                Contact
                             </Link>
+                        </li>
                         </ul>
                         <div className='pt-20'>
                             <p className='uppercase tracking-widest'>Let&apos;s Network</p>
