@@ -34,7 +34,7 @@ const Skills = () => {
                 <div className='bg-white p-4 shadow-md rounded-md hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-3 gap-4 items-center justify-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/images/skills/javascript.png' alt='JavaScript' width='64' height='64' />
+                            <Image src='/images/skills/javascript.png' alt='JavaScript' width='64' height='64' />
                         </div>
                         <div className='col-span-2'>
                             <p className='uppercase font-bold'>JavaScript</p>
@@ -45,7 +45,7 @@ const Skills = () => {
                 <div className='bg-white p-4 shadow-md rounded-md hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-3 gap-4 items-center justify-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/images/skills/accessibility.png' alt='Web Accessibility' width='64' height='64' />
+                            <Image src='/images/skills/accessibility.png' alt='Web Accessibility' width='64' height='64' />
                         </div>
                         <div className='col-span-2'>
                             <p className='uppercase font-bold'>A11y</p>
@@ -56,7 +56,7 @@ const Skills = () => {
                 <div className='bg-white p-4 shadow-md rounded-md hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-3 gap-4 items-center justify-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/images/skills/wordpress-blue.png' alt='Wordpress' width='64' height='64' />
+                            <Image src='/images/skills/wordpress-blue.png' alt='Wordpress' width='64' height='64' />
                         </div>
                         <div className='col-span-2'>
                             <p className='uppercase font-bold'>Wordpress</p>
@@ -67,7 +67,7 @@ const Skills = () => {
                 <div className='bg-white p-4 shadow-md rounded-md hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-3 gap-4 items-center justify-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/images/skills/nextjs.png' alt='Next.js' width='64' height='64' />
+                            <Image src='/images/skills/nextjs.png' alt='Next.js' width='64' height='64' />
                         </div>
                         <div className='col-span-2'>
                             <p className='uppercase font-bold'>Next.js</p>
@@ -78,7 +78,7 @@ const Skills = () => {
                 <div className='bg-white p-4 shadow-md rounded-md hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-3 gap-4 items-center justify-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/images/skills/sass.png' alt='SASS' width='64' height='64' />
+                            <Image src='/images/skills/sass.png' alt='SASS' width='64' height='64' />
                         </div>
                         <div className='col-span-2'>
                             <p className='uppercase font-bold'>SASS</p>
@@ -89,7 +89,7 @@ const Skills = () => {
                 <div className='bg-white p-4 shadow-md rounded-md hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-3 gap-4 items-center justify-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/images/skills/tailwind.png' alt='Tailwind' width='64' height='64' />
+                            <Image src='/images/skills/tailwind.png' alt='Tailwind' width='64' height='64' />
                         </div>
                         <div className='col-span-2'>
                             <p className='uppercase font-bold'>Tailwind</p>
