@@ -6,7 +6,7 @@ import { useRouter } from "next/router"
 import { BsArrowLeft } from 'react-icons/bs'
 
 
-const ags = () => {
+const Mra = () => {
 
   const router = useRouter()
 
@@ -81,4 +81,4 @@ const ags = () => {
   )
 }
 
-export default ags
+export default Mra
