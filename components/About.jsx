@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link';
+import AboutImg from '../public/images/dsteele-headshot.jpg'
 
 const About = () => {
   return (
     <div id='about' className='w-full flex items-start p-2'>
       <div className='max-width-[1240px] w-full h-full mx-auto md:grid grid-cols-3 gap-8 content-start'>
         <div className='w-auto h-auto mx-auto flex items-center justify-center mb-8 md:mb-0'>
-          <Image className='rounded-md border-[16px] border-white shadow-md shadow-slate-400' src='/../public/images/dsteele-headshot.jpg' alt='Dylan Steele, smiling at the camera' width='384' height='384' />
+          <Image className='rounded-md border-[16px] border-white shadow-md shadow-slate-400' src={AboutImg} alt='Dylan Steele, smiling at the camera' width='384' height='384' />
         </div>
         <div className='col-span-2'>
           <h2>Hi, my name is Dylan!</h2>
