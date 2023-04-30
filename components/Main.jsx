@@ -22,7 +22,7 @@ const Main = () => {
                                 <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                             </div>
                             <button className='bg-white shadow-gray-900 text-[#152791] border-2 border-[#152791]'>Sign me up!</button>
-                            <p class="text-white text-xs mt-3">I'll let you know about new projects, presentations, and events.</p>
+                            <p class="text-white text-xs mt-3">I&apos;ll let you know about new projects, presentations, and events.</p>
                         </div>
                     </div>
                 </div>

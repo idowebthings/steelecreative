@@ -7,8 +7,8 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full p-2'>
       <div className='max-width-[1240px] w-full h-full mx-auto flex flex-col items-start'>
-        <h2>Let's Collaborate</h2>
-        <p>Lorem ipsum et secular.</p>
+        <h2>Let&apos;s Collaborate</h2>
+        <p>Have a project or idea you want to discuss? Drop me a line and we can start a conversation.</p>
         <div className='w-full h-full shadow-md shadow-slate-400'>
           <div className='w-full pt-2'>
             <form>

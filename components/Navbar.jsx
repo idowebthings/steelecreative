@@ -99,7 +99,7 @@ const Navbar = () => {
                             </Link>
                         </ul>
                         <div className='pt-20'>
-                            <p className='uppercase tracking-widest'>Let's Network</p>
+                            <p className='uppercase tracking-widest'>Let&apos;s Network</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-sm shadow-stone-400 hover:shadow-stone-700 p-3 cursor-pointer ease-in duration-300'>
                                     <FaLinkedinIn />
