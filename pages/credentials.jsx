@@ -20,7 +20,7 @@ const credentials = () => {
                 </div>
                 <div className='w-full lg:w-[25%] h-full lg:text-left'>
                     <div className='w-full border border-black rounded-md p-8 text-center'>
-                        <h3>Dylan's Resume</h3>
+                        <h3>Dylan&apos;s Resume</h3>
                         <div className='w-full flex items-center justify-center py-8'>
                         <Link className='inline-block cursor-pointer bg-white rounded-md p-2 shadow-md shadow-slate-400 text-black hover:shadow-slate-700' href='../public/resume_dylan-steele.pdf'>Download PDF</Link>
                         </div>
