@@ -12,7 +12,7 @@ const Skills = () => {
                 <div className='bg-white p-4 shadow-md rounded-md hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-3 gap-4 items-center justify-center'>
                         <div className='m-auto text-center'>
-                            <Image src='/../public/images/skills/html5.png' alt='HTML5' width={64} height={64} />
+                            <Image src='/images/skills/html5.png' alt='HTML5' width={64} height={64} />
                         </div>
                         <div className='col-span-2'>
                             <p className='uppercase font-bold'>HTML</p>
@@ -23,7 +23,7 @@ const Skills = () => {
                 <div className='bg-white p-4 shadow-md rounded-md hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-3 gap-4 items-center justify-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/images/skills/css3.png' alt='CSS3' width='64' height='64' />
+                            <Image src='/images/skills/css3.png' alt='CSS3' width='64' height='64' />
                         </div>
                         <div className='col-span-2'>
                             <p className='uppercase font-bold'>CSS</p>
