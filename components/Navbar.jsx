@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonFill } from 'react-icons/bs';
+import scLogo from '../public/images/sc-logo.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -32,7 +33,7 @@ const Navbar = () => {
         }>
             <div className='flex justify-between items-center w-full h-24 px-2 2xl:px-16'>
                 <Link href='/'>
-                    <Image src='/../public/images/sc-logo.png' alt='Steele Creative' width='200' height='77' />
+                    <Image src={scLogo} alt='Steele Creative' width={200} height={77} />
                 </Link>
                 <div>
                     <ul className='hidden md:flex'>

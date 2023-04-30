@@ -34,14 +34,14 @@ const Sdd = () => {
           The bane of any computer user is the spinning donut of death. In this top-down shooter, you are out to destroy office productivity. But beware the Scrum Master!
           </p>
           <a
-            href='https://github.com/fireclint/property-finder'
+            href='https://github.com/idowebthings/spinning-donuts-of-death'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://property-finder-development.web.app/'
+            href='https://play.unity.com/mg/other/spinning-donuts-of-death-destroy-your-productivity'
             target='_blank'
             rel='noreferrer'
           >

@@ -34,14 +34,14 @@ const Ags = () => {
           Public marketing website, built in Sitecore, deployed with Azure
           </p>
           <a
-            href='https://github.com/fireclint/property-finder'
+            href='https://github.com/idowebthings/portfolio-code-samples/tree/main/ags/js'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://property-finder-development.web.app/'
+            href='https://www.allegisglobalsolutions.com'
             target='_blank'
             rel='noreferrer'
           >

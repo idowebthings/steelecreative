@@ -34,14 +34,7 @@ const Nasa = () => {
           Website development, HTML email, and e-Book production, including creation of the eBook page on NASA.gov
           </p>
           <a
-            href='https://github.com/fireclint/property-finder'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a>
-          <a
-            href='https://property-finder-development.web.app/'
+            href='https://www.nasa.gov/connect/ebooks/index.html'
             target='_blank'
             rel='noreferrer'
           >
@@ -53,13 +46,25 @@ const Nasa = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Unity
+                <RiRadioButtonFill className='pr-1' /> HTML
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> C#
+                <RiRadioButtonFill className='pr-1' /> CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Photoshop
+                <RiRadioButtonFill className='pr-1' /> JavaScript
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Drupal
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> XML
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> ePub
+              </p>              
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Section 508
               </p>
             </div>
           </div>

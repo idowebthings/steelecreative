@@ -10,9 +10,7 @@ const Testimonials = () => {
   <div className='mb-8'>
     <h2>Testimonials</h2>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-      error amet numquam iure provident voluptate esse quasi, veritatis
-      totam voluptas nostrum quisquam eum porro a pariatur veniam.
+      Why take my word for it? Here are some compliments from happy clients.
     </p>
   </div>
 
@@ -21,27 +19,25 @@ const Testimonials = () => {
     <div class="mb-6 md:mb-0">
       <div class="mb-6 flex justify-center">
         <Image
-          src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(22).jpg"
+          src="https://photos.zillowstatic.com/h_l/ISq5l1gr4xzi540000000000.jpg"
           class="w-24 rounded-full shadow-lg dark:shadow-black/30" alt='' width='96' height='96' />
       </div>
       <p class="my-4 text-xl text-neutral-500 dark:text-neutral-300">
-      &ldquo;Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing
-        elit sed ut perspiciatis unde omnis.&rdquo;
+      &ldquo;Thanks for everything you have done for our website. The move from a static site to one managed in the Miva CMS is going to greatly enhance our business.&rdquo;
       </p>
-      <p class="italic">- Anna Morian</p>
+      <p class="italic">- David Temple, People Powered Machines</p>
     </div>
 
     <div class="mb-0">
       <div class="mb-6 flex justify-center">
       <Image
-          src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(19).jpg"
+          src="https://media.licdn.com/dms/image/C4E03AQE3E1pg58vkZg/profile-displayphoto-shrink_200_200/0/1517724450199?e=1688601600&v=beta&t=DCorPUEytqxn1bGsvIo7oNhZVK90dmq_anaPwC-MB58"
           class="w-24 rounded-full shadow-lg dark:shadow-black/30" alt='' width='96' height='96' />
       </div>
       <p class="my-4 text-xl text-neutral-500 dark:text-neutral-300">
-      &ldquo;Neque cupiditate assumenda in maiores repudiandae mollitia
-        architecto elit sed adipiscing elit.&rdquo;
+      &ldquo;Epit shout-out for all the UI and styling work on the new AGS website. It looks amazing! You are truly awesome to work with.&rdquo;
       </p>
-      <p class="italic">- Teresa May</p>
+      <p class="italic">- Jaime Hood, Allegis Group</p>
     </div>
   </div>
 </section>
