@@ -35,7 +35,7 @@ const Testimonials = () => {
           class="w-24 rounded-full shadow-lg dark:shadow-black/30" alt='' width='96' height='96' />
       </div>
       <p class="my-4 text-xl text-neutral-500 dark:text-neutral-300">
-      &ldquo;Epit shout-out for all the UI and styling work on the new AGS website. It looks amazing! You are truly awesome to work with.&rdquo;
+      &ldquo;Epic shout-out for all the UI and styling work on the new AGS website. It looks amazing! You are truly awesome to work with.&rdquo;
       </p>
       <p class="italic">- Jaime Hood, Allegis Group</p>
     </div>
