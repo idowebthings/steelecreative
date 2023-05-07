@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectImg from '../../public/images/projects/ags-cropped.png'
+import ProjectImg from '../../public/images/projects/scportfolio-cropped.png'
 import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import { BsArrowLeft } from 'react-icons/bs'
@@ -18,11 +18,11 @@ const Ags = () => {
           className='absolute z-1' fill
           objectFit='cover'
           src={ProjectImg}
-          alt='screenshot of the Allegis Global Solutions website'
+          alt='screenshot of this website'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Allegis Global Solutions</h2>
-          <h3>Sitecore / CSS / JavaScript / HubSpot API</h3>
+          <h2 className='py-2'>This site you are on currently.</h2>
+          <h3>NextJS / Tailwind CSS / React / JavaScript</h3>
         </div>
       </div>
 

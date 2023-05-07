@@ -8,7 +8,7 @@ const ProjectItem = ({title, description, bgImg, projectUrl}) => {
             <Image src={bgImg} className='rounded-md group-hover:opacity-10' alt='project screenshot' />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-center'>
                 <h3>{title}</h3>
-                <p>{description}</p>
+                <p className='hidden lg:block'>{description}</p>
                 <Link href={projectUrl} className='inline-block bg-white rounded-md p-2 shadow-md shadow-slate-400 text-black hover:shadow-slate-700'>Take a Tour</Link>
             </div>
         </div>

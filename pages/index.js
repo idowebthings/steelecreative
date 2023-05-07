@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import Main from '@/components/Main'
 import About from '@/components/About'
 import Skills from '@/components/Skills'
-import Projects from '@/components/Projects'
+import FeaturedProjects from '@/components/FeaturedProjects'
 import Contact from '@/components/Contact'
 import Testimonials from '@/components/Testimonials'
 
@@ -18,7 +18,7 @@ export default function Home() {
         <About />
       </div>
       <div className='mb-24'>
-        <Projects />
+        <FeaturedProjects />
       </div>
       <div className='mb-24'>
         <Skills />
