@@ -6,7 +6,7 @@ const Main = () => {
             <div className='h-full pt-12 mx-auto flex justify-center items-center lg:pb-8'>
                 <div className='flex lg:flex-row flex-wrap w-full'>
                     <div className='w-full lg:w-[60%] h-full lg:text-left lg:px-16'>
-                        <h1 className=''><span className='bg-white leading-loose whitespace-pre-wrap px-2 pb-2'>Development, Design, & Consulting</span></h1>
+                        <h1><span className='bg-white leading-loose whitespace-pre-wrap px-2 pb-2'>Development, Design, & Consulting</span></h1>
                         <h2 className='tracking-widest'><span className='bg-white leading-loose px-2 pb-2'>Creative <span className='text-[#c13039]'>Problem Solving</span></span></h2>
                         <p className='font-bold'><span className='bg-white leading-loose whitespace-pre-wrap px-2 pb-2'>Accessible development and design for websites, apps, games, and more.</span></p>
                     </div>
