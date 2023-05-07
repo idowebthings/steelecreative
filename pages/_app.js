@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
     <header>
       <Navbar />
     </header>
-    <main className='flex min-h-screen flex-col items-center justify-between pt-32 px-24'>
+    <main className='flex min-h-screen flex-col items-center justify-between pt-32 px-8 lg:px-24'>
       <Component {...pageProps} />
     </main>
     <footer>

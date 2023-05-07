@@ -9,7 +9,7 @@ const Contact = () => {
       <div className='max-width-[1240px] w-full h-full mx-auto flex flex-col items-start'>
         <h2>Let&apos;s Collaborate</h2>
         <p>Have a project or idea you want to discuss? Drop me a line and we can start a conversation.</p>
-        <div className='w-full h-full shadow-md shadow-slate-400'>
+        <div className='w-full h-full'>
           <div className='w-full pt-2'>
             <form>
               <div className='grid md:grid-cols-2 gap-4 p-2 w-full'>
@@ -38,7 +38,7 @@ const Contact = () => {
             </form>
           </div>
           <div className='w-full p-2'>
-            <div className='flex items-center justify-between my-4 mx-auto w-full sm:w-[80%]'>
+            <div className='flex items-center justify-between my-4 mx-auto w-[80%] sm:w-[60%]'>
               <div className='rounded-full shadow-sm shadow-stone-400 hover:shadow-stone-700 p-3 cursor-pointer ease-in duration-300'>
                 <FaLinkedinIn />
               </div>

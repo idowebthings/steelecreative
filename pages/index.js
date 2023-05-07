@@ -11,22 +11,22 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <div>
-      <div className='mb-32'>
+      <div className='mb-24'>
         <Main />
       </div>
-      <div className='mb-32'>
+      <div className='mb-24'>
         <About />
       </div>
-      <div className='mb-32'>
+      <div className='mb-24'>
         <Projects />
       </div>
-      <div className='mb-32'>
+      <div className='mb-24'>
         <Skills />
       </div>
-      <div className='mb-32'>
+      <div className='mb-24'>
         <Testimonials />
       </div>
-      <div className='mb-32'>
+      <div className='mb-24'>
         <Contact />
       </div>
     </div>
