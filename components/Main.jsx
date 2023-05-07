@@ -2,13 +2,13 @@ import React from 'react';
 
 const Main = () => {
     return (
-        <div id='main' className='w-full p-2 text-center bg-[url("/images/web-design-2038872_1920.jpg")] bg-cover -mx-8 lg:-mx-24'>
+        <div id='main' className='w-[100vw] p-2 text-center bg-[url("/images/web-design-2038872_1920.jpg")] bg-cover -mx-8 lg:-mx-24'>
             <div className='h-full pt-12 mx-auto flex justify-center items-center lg:pb-8'>
                 <div className='flex lg:flex-row flex-wrap w-full'>
                     <div className='w-full lg:w-[60%] h-full lg:text-left lg:px-16'>
-                        <h1 className=''><span className='bg-white leading-loose'>Development, Design, & Consulting</span></h1>
-                        <h2 className='tracking-widest'><span className='bg-white leading-loose'>Creative <span className='text-[#c13039]'>Problem Solving</span></span></h2>
-                        <p><span className='bg-white leading-loose'>Accessible development and design for websites, apps, games, and more.</span></p>
+                        <h1 className=''><span className='bg-white leading-loose whitespace-pre-wrap px-4 pb-4'>Development, Design, & Consulting</span></h1>
+                        <h2 className='tracking-widest'><span className='bg-white leading-loose px-2 pb-2'>Creative <span className='text-[#c13039]'>Problem Solving</span></span></h2>
+                        <p className='font-bold'><span className='bg-white leading-loose whitespace-pre-wrap px-2 pb-2'>Accessible development and design for websites, apps, games, and more.</span></p>
                     </div>
                     <div className='w-full lg:w-[40%] h-full p-4 lg:p-8 lg:-m-8'>
                         <div className='w-full bg-[#2547bc] shadow-sm shadow-gray-400 rounded-md py-4 px-8'>
