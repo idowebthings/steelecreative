@@ -34,7 +34,7 @@ const Sdd = () => {
             The bane of any computer user is the spinning donut of death. In this top-down shooter, you are out to destroy office productivity by blasting spinning blue donuts at hungry workers and innocent workstations. But beware of the Scrum Master!
           </p>
           <p>
-            This is a game I made for CMST 315 - Game Design I, at University of Maryland Global Campus, during the Fall 2022 session. One of the most fun projects I've ever worked on, I leveraged the Unity development platform and upskilled my toolkit by coding in C#. The office workers are equipped with an artificial intelligence-emulating random movement function, while the game takes advantage of the physics engine baked into Unity to bounce your projectiles around the office. With future enhancements planned, this is a project to watch if you like this MVP version of the game.
+            This is a game I made for CMST 315 - Game Design I, at University of Maryland Global Campus, during the Fall 2022 session. One of the most fun projects I have ever worked on, I leveraged the Unity development platform and upskilled my toolkit by coding in C#. The office workers are equipped with an artificial intelligence-emulating random movement function, while the game takes advantage of the physics engine baked into Unity to bounce your projectiles around the office. With future enhancements planned, this is a project to watch if you like this MVP version of the game.
           </p>
           <a
             href='https://github.com/idowebthings/spinning-donuts-of-death'

@@ -34,7 +34,7 @@ const Pong = () => {
             This is one of the first projects I completed towards my major, in CMST 290 - Intro to Interactive Design, during the Fall 2021 session at UMGC. A recreation of the granddaddy of video games, the classic Pong, I wrote this in equally classic vanilla, object-oriented JavaScript. Player and opponent paddles, the ball, scoreboard, and menu are all separate objects, and I was really happy with the resulting performance and game play.
           </p>
           <p>
-            Though I was already an experienced JavaScript developer when I did this project, I learned a lot because so much of my experience is purely oriented towards websites. Planning and coding the interactions required for game play gave me a different perspective and set of problems to solve. I am planning on enhancing this with an "EXTREME MODE" - stay tuned!
+            Though I was already an experienced JavaScript developer when I did this project, I learned a lot because so much of my experience is purely oriented towards websites. Planning and coding the interactions required for game play gave me a different perspective and set of problems to solve. I am planning on enhancing this with an &quot;EXTREME MODE&quot; - stay tuned!
           </p>
           <a
             href='https://github.com/idowebthings/portfolio-code-samples/blob/main/pong/classic.html'

@@ -31,7 +31,7 @@ const Scp = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Built as my final project in the capstone course to finish my degree, this portfolio site (that you are currently viewing) is my most recent and modern project. This is the classic definition of "killing two birds with one stone", in that it fulfils two long-standing goals - to have a versatile, online portfolio and to build a site using a modern framework. Initially I tried to do this in React, but I found the learning curve steep and became frustrated. Finding NextJS, which feels to me like React made for front-end developers, was a revelation. 
+          Built as my final project in the capstone course to finish my degree, this portfolio site (that you are currently viewing) is my most recent and modern project. This is the classic definition of &quot;killing two birds with one stone&quot;, in that it fulfils two long-standing goals - to have a versatile, online portfolio and to build a site using a modern framework. Initially I tried to do this in React, but I found the learning curve steep and became frustrated. Finding NextJS, which feels to me like React made for front-end developers, was a revelation. 
           </p>
           <p>
           Tailwind is another technology I am using here for the first time. I have not been this excited by CSS framework or tool since I learned SASS. By leveraging NextJS and Tailwind, I was able to create the core of this site in less than a day and complete the MVP version in less than a month. These are two tools I plan on using regularly.
