@@ -44,6 +44,8 @@ const Ags = () => {
             alt='prototype screenshot'
           />
           </a>
+          <h2>Watch Demo</h2>
+          <video controls src={"../../files/uiux-walkthru.mp4"} className='p-4' />
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
