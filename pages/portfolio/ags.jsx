@@ -31,21 +31,24 @@ const Ags = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Public marketing website, built in Sitecore, deployed with Azure
+          In the fall of 2022, Allegis Global Solutions, received a full site refresh of their existing marketing site. This job was assigned to my team at Allegis Group. Acting as the lead UI developer for this project, I refactored and wrote new SASS/CSS to style various components, including syndicated listings of white papers, external articles, news and events, and press releases. Integrated Sitecore with HubSpot using APIs to create contact forms and manage white paper and case study downloads, as well as styling the external HubSpot blog to match the new site design.
+          </p>
+          <p>
+            Though officially a refresh, this was closer to a full site redesign, as the content and page structure was updated, as well. I advised on best practices to make all content accessible and provided user experience recommendations. To complete the content updates before launch, I led a team of content editors in assembling pages from Sitecore components and templates, as well as coordinating with enterprise architects to manage releases to development and production environments.
           </p>
           <a
             href='https://github.com/idowebthings/portfolio-code-samples/tree/main/ags/js'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8'>See Code Samples</button>
           </a>
           <a
             href='https://www.allegisglobalsolutions.com'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+            <button className='px-8 py-2 mt-4'>Visit the Site</button>
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>

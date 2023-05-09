@@ -1,8 +1,8 @@
 import React from 'react'
 import AgsImg from '../public/images/projects/ags-cropped.png'
 import SddImg from '../public/images/projects/spinning_donuts_splash.png'
-import MraImg from '../public/images/projects/mra-email.png'
-import NasaImg from '../public/images/projects/emblems-of-exploration.jpg'
+import MilestonesImg from '../public/images/projects/nasa-poster_cropped.png'
+import NasaImg from '../public/images/projects/tech-innovation_cropped.png'
 import PongImg from '../public/images/projects/cmst-290-pong.png'
 import PatapscoImg from '../public/images/projects/cmst320-project4-cropped.png'
 import movPosterImg from '../public/images/projects/cmst325-p1-movie-poster-cropped.png'
@@ -15,7 +15,7 @@ const Projects = () => {
     return (
         <div id='projects' className='w-full p-2'>
             <div className='max-width-[1240px] w-full h-full mx-auto flex flex-col items-start'>
-                <h2>Featured Projects</h2>
+                <h2>Projects</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
 
                     <ProjectItem title='This site!' description='Digital portfolio built on NextJS and TailwindCSS.' bgImg={ScpImg} projectUrl='/portfolio/steelecreative' />                    
@@ -24,13 +24,13 @@ const Projects = () => {
 
                     <ProjectItem title='Allegis Global Solutions' description='Public marketing website, built in Sitecore, deployed with Azure' bgImg={AgsImg} projectUrl='/portfolio/ags' />
 
-                    <ProjectItem title='National Aeronautics and Space Administration' description='Website development, Section 508, and e-Book production, including creation of the eBook page on NASA.gov' bgImg={NasaImg} projectUrl='/portfolio/nasa' />
+                    <ProjectItem title='NASA Tech Innovation App' description='Website development, Section 508, and e-Book production, including creation of the eBook page on NASA.gov' bgImg={NasaImg} projectUrl='/portfolio/nasa-app' />
 
                     <ProjectItem title='Spinning Donuts of Death' description='In this top-down shooter, you are out to destroy office productivity. Beware the Scrum Master!' bgImg={SddImg} projectUrl='/portfolio/spinning-donuts-of-death' />
 
                     <ProjectItem title='Pong' description='The classic, original video game, hand-coded in JavaScript. Stay tuned for coming enhancements!' bgImg={PongImg} projectUrl='/portfolio/pong' />
 
-                    <ProjectItem title='Melanoma Research Allliance' description='Bulletproof HTML emails, interactive web components, and landing pages' bgImg={MraImg} projectUrl='/portfolio/mra' />
+                    <ProjectItem title='NASA Milestones Poster' description='Poster design showing NASA missions from 2016-2021, and beyond.' bgImg={MilestonesImg} projectUrl='/portfolio/nasa-milestones' />
 
                     <ProjectItem title='UI/UX Prototypoing' description='Conducted user research, wireframing, and prototyping for mobile app.' bgImg={UiuxImg} projectUrl='/portfolio/ui-ux-prototype' />
 

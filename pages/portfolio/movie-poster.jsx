@@ -1,5 +1,7 @@
 import React from 'react'
+import MainImg from '../../public/images/projects/cmst325-p1-movie-poster-cropped.png'
 import ProjectImg from '../../public/images/projects/cmst325-p1-movie-poster.jpg'
+import ChallengeImg from '../../public/images/projects/cmst-325-challenge.jpg'
 import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import { BsArrowLeft } from 'react-icons/bs'
@@ -17,7 +19,7 @@ const Ags = () => {
         <Image
           className='absolute z-1' fill
           objectFit='cover'
-          src={ProjectImg}
+          src={MainImg}
           alt='movie poster created in Adobe Photoshop'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -31,21 +33,31 @@ const Ags = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Public marketing website, built in Sitecore, deployed with Azure
+          A school project from the Fall 2021 session of CMST 325 - Image Editing at UMGC, this proof-of-concept movie poster uses transparency and layer masks to create a compelling design. Using multiple pieces of stock art, I layered and blended them to create a design that fits the motif of the fictional movie I imagined for the project. I emulated classic Hollywood poster styles, including bold typography, and used my knowledge of design principles to lead a viewer&apos;s focus to the eye-like celestial scene rising above an earth-bound landscape.</p>
+          <p>
+This poster demonstrates my proficiency in advanced Adobe Photoshop techniques and was created in Adobe Photoshop using Adobe Stock images and fonts.
           </p>
           <a
-            href='https://github.com/idowebthings/portfolio-code-samples/tree/main/ags/js'
+            href='../../images/projects/cmst325-p1-movie-poster.jpg'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+          <Image
+            className='w-full' 
+            src={ProjectImg} 
+            alt='Movie Poster image'
+          />
           </a>
           <a
-            href='https://www.allegisglobalsolutions.com'
+            href='../../images/projects/cmst-325-challenge.jpg'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+          <Image
+            className='w-full' 
+            src={ChallengeImg} 
+            alt='mock up of movie posters on a theater wall'
+          />
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>

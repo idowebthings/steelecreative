@@ -31,21 +31,18 @@ const Ags = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Public marketing website, built in Sitecore, deployed with Azure
+          This was a school project for CMST 308 - User Experience Interface Design, taken during spring 2022. For this project I demonstrated my skill as a user experience researcher and designer. I was tasked with creating multiple user personas, test scenarios, user journeys, and experience flows. In the final iteration of the project, I developed mocks of a mobile app and created a working prototype in Adobe XD. In doing so, I was able to present my final demo in video form. This project added many skills to my toolkit, including research, user personas, and experience prototyping. Take a look at the presentation to see a full walkthrough.
           </p>
           <a
-            href='https://github.com/idowebthings/portfolio-code-samples/tree/main/ags/js'
+            href='../../images/projects/cmst308-ux-ui-prototyping.png'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a>
-          <a
-            href='https://www.allegisglobalsolutions.com'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+          <Image
+            className='w-full' 
+            src={ProjectImg} 
+            alt='prototype screenshot'
+          />
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -53,22 +50,10 @@ const Ags = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Sitecore
+                <RiRadioButtonFill className='pr-1' /> Adobe XD
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> CSS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> SASS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> HubSpot API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Azure
+                <RiRadioButtonFill className='pr-1' /> Powerpoint
               </p>
             </div>
           </div>

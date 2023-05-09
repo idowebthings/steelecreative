@@ -6,7 +6,7 @@ import { BsArrowLeft } from 'react-icons/bs'
 import { useRouter } from "next/router"
 
 
-const Ags = () => {
+const Scp = () => {
 
   const router = useRouter()
 
@@ -22,7 +22,7 @@ const Ags = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>This site you are on currently.</h2>
-          <h3>NextJS / Tailwind CSS / React / JavaScript</h3>
+          <h3>NextJS / Tailwind CSS / React / Git</h3>
         </div>
       </div>
 
@@ -31,21 +31,17 @@ const Ags = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Public marketing website, built in Sitecore, deployed with Azure
+          Built as my final project in the capstone course to finish my degree, this portfolio site (that you are currently viewing) is my most recent and modern project. This is the classic definition of "killing two birds with one stone", in that it fulfils two long-standing goals - to have a versatile, online portfolio and to build a site using a modern framework. Initially I tried to do this in React, but I found the learning curve steep and became frustrated. Finding NextJS, which feels to me like React made for front-end developers, was a revelation. 
+          </p>
+          <p>
+          Tailwind is another technology I am using here for the first time. I have not been this excited by CSS framework or tool since I learned SASS. By leveraging NextJS and Tailwind, I was able to create the core of this site in less than a day and complete the MVP version in less than a month. These are two tools I plan on using regularly.
           </p>
           <a
-            href='https://github.com/idowebthings/portfolio-code-samples/tree/main/ags/js'
+            href='https://github.com/idowebthings/steelecreative'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a>
-          <a
-            href='https://www.allegisglobalsolutions.com'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+            <button className='px-8 py-2 mt-4 mr-8'>See the Code</button>
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -53,22 +49,16 @@ const Ags = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Sitecore
+                <RiRadioButtonFill className='pr-1' /> NextJS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> CSS
+                <RiRadioButtonFill className='pr-1' /> Tailwind CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> React
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> SASS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> HubSpot API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Azure
+                <RiRadioButtonFill className='pr-1' /> Git
               </p>
             </div>
           </div>
@@ -82,4 +72,4 @@ const Ags = () => {
   )
 }
 
-export default Ags
+export default Scp

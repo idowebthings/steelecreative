@@ -31,20 +31,20 @@ const credentials = () => {
             <div className='mb-16'>
                 <h2>Education</h2>
                 <ul className='list-disc list-inside'>
-                    <li><strong>University of Maryland Global Campus 2020 - 2023</strong>
+                    <li className='list-none'><strong>University of Maryland Global Campus 2020 - 2023</strong>
                         <ul className='list-disc list-inside ml-4 mb-4'>
-                            <li>Bachelor of Science, Digital Media & Web Technology, Alpha Sigma Lambda Honor Society</li>
-                            <li>Coursework: User Experience Design, Interaction Design, Game Development, Advanced Javascript, Technical Writing, Illustration Graphics, Image Editing</li>
+                            <li className='list-none'>Bachelor of Science, Digital Media & Web Technology, Alpha Sigma Lambda Honor Society</li>
+                            <li className='list-none'>Coursework: User Experience Design, Interaction Design, Game Development, Advanced Javascript, Technical Writing, Illustration Graphics, Image Editing</li>
                         </ul>
                     </li>
-                    <li><strong>Anne Arundel Community College 2003 - 2005</strong>
+                    <li className='list-none'><strong>Anne Arundel Community College 2003 - 2005</strong>
                         <ul className='list-disc list-inside ml-4 mb-4'>
-                            <li>Coursework: Principles of Program Design, Object Oriented Programming, HTML, CSS, Javascript, Intro to Java, PHP Scripting</li>
+                            <li className='list-none'>Coursework: Principles of Program Design, Object Oriented Programming, HTML, CSS, Javascript, Intro to Java, PHP Scripting</li>
                         </ul>
                     </li>
-                    <li><strong>Louisiana Tech University 1992 - 1994</strong>
+                    <li className='list-none'><strong>Louisiana Tech University 1992 - 1994</strong>
                         <ul className='list-disc list-inside ml-4 mb-4'>
-                            <li>Coursework: Principles of Design, Drawing</li>
+                            <li className='list-none'>Coursework: Principles of Design, Drawing</li>
                         </ul>
                     </li>
                 </ul>

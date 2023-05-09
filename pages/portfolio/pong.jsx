@@ -6,7 +6,7 @@ import { BsArrowLeft } from 'react-icons/bs'
 import { useRouter } from "next/router"
 
 
-const Ags = () => {
+const Pong = () => {
 
   const router = useRouter()
 
@@ -22,7 +22,7 @@ const Ags = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Pong</h2>
-          <h3>JavaScript</h3>
+          <h3>HTML / CSS / JavaScript</h3>
         </div>
       </div>
 
@@ -31,21 +31,24 @@ const Ags = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Public marketing website, built in Sitecore, deployed with Azure
+            This is one of the first projects I completed towards my major, in CMST 290 - Intro to Interactive Design, during the Fall 2021 session at UMGC. A recreation of the granddaddy of video games, the classic Pong, I wrote this in equally classic vanilla, object-oriented JavaScript. Player and opponent paddles, the ball, scoreboard, and menu are all separate objects, and I was really happy with the resulting performance and game play.
+          </p>
+          <p>
+            Though I was already an experienced JavaScript developer when I did this project, I learned a lot because so much of my experience is purely oriented towards websites. Planning and coding the interactions required for game play gave me a different perspective and set of problems to solve. I am planning on enhancing this with an "EXTREME MODE" - stay tuned!
           </p>
           <a
-            href='https://github.com/idowebthings/portfolio-code-samples/tree/main/ags/js'
+            href='https://github.com/idowebthings/portfolio-code-samples/blob/main/pong/classic.html'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8'>See the Code</button>
           </a>
           <a
-            href='https://www.allegisglobalsolutions.com'
+            href='../../files/classic.html'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+            <button className='px-8 py-2 mt-4 mr-8'>Play the Game!</button>
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -53,7 +56,7 @@ const Ags = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Sitecore
+                <RiRadioButtonFill className='pr-1' /> HTML
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> CSS
@@ -61,19 +64,10 @@ const Ags = () => {
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> SASS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> HubSpot API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Azure
-              </p>
             </div>
           </div>
         </div>
-        
+
         <button onClick={() => router.back()} className='bg-transparent border-none shadow-none p-0 text-left text-blue-900 underline hover:underline-offset-2'>
           <p className='underline cursor-pointer'><BsArrowLeft className='pr-2 inline text-lg text-blue-900' />Back</p>
         </button>
@@ -82,4 +76,4 @@ const Ags = () => {
   )
 }
 
-export default Ags
+export default Pong

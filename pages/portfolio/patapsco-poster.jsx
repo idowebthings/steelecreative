@@ -1,4 +1,5 @@
 import React from 'react'
+import MainImg from '../../public/images/projects/cmst320-project4-cropped.png'
 import ProjectImg from '../../public/images/projects/cmst320-project4.png'
 import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri'
@@ -17,8 +18,8 @@ const Ags = () => {
         <Image
           className='absolute z-1' fill
           objectFit='cover'
-          src={ProjectImg}
-          alt='screenshot of pong video game'
+          src={MainImg}
+          alt='poster proof of concept'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Poster Proof of Concept</h2>
@@ -31,21 +32,20 @@ const Ags = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Public marketing website, built in Sitecore, deployed with Azure
+          A school project from the Spring 2022 session of CMST 320 - Illustration Graphics at UMGC, this proof-of-concept poster honors Patapsco State Park in Baltimore County, Maryland, and especially my local entrance, nestled under an array of overpasses. I tried to emulate classic graphic design styles seen on classic posters of the 20th century.</p>
+          <p>
+            I created this poster in Adobe Illustrator, using primarily pen and shape tools, adding and blending multiple colors and gradients. This poster demonstrates my ability to create custom shapes, use the pen tool to draw intricate designs, and utilize design principles. I think the design concept is strong (and I received an A!).
           </p>
           <a
-            href='https://github.com/idowebthings/portfolio-code-samples/tree/main/ags/js'
+            href='../../images/projects/cmst320-project4.png'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a>
-          <a
-            href='https://www.allegisglobalsolutions.com'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+          <Image
+            className='w-full' 
+            src={ProjectImg} 
+            alt='Movie Poster image'
+          />
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -53,22 +53,7 @@ const Ags = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Sitecore
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> CSS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> SASS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> HubSpot API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Azure
+                <RiRadioButtonFill className='pr-1' /> Adobe Illustrator
               </p>
             </div>
           </div>

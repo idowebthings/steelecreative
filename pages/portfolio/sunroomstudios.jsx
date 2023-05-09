@@ -6,7 +6,7 @@ import { BsArrowLeft } from 'react-icons/bs'
 import { useRouter } from "next/router"
 
 
-const Ags = () => {
+const SRStudios = () => {
 
   const router = useRouter()
 
@@ -31,17 +31,13 @@ const Ags = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Public marketing website, built in Sitecore, deployed with Azure
+          This is the website for a mother-daughter team of jewelry makers, wire wrappers and glass bead artists. Since they are non-technical and needed the ability to manage their site content, classes, and events, we elected to use WordPress due to their familiarity with the content authoring interface. The site includes a gallery of their work, calendar of events, and social media integrations with their Facebook and Instagram accounts. 
+          </p>
+          <p>
+            Though I generally focus on development, I was able to work on the design for this site as well. The background includes graphics created from hand-drawn doodles from the artists at Sunroom Studios, allowing their unique style and personality to shine. This site also includes testimonials, feature publications, and forms for contact and to join their mailing list.
           </p>
           <a
-            href='https://github.com/idowebthings/portfolio-code-samples/tree/main/ags/js'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a>
-          <a
-            href='https://www.allegisglobalsolutions.com'
+            href='https://www.sunroomstudios.com'
             target='_blank'
             rel='noreferrer'
           >
@@ -53,7 +49,7 @@ const Ags = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Sitecore
+                <RiRadioButtonFill className='pr-1' /> WordPress
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> CSS
@@ -62,13 +58,7 @@ const Ags = () => {
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> SASS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> HubSpot API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Azure
+                <RiRadioButtonFill className='pr-1' /> APIs
               </p>
             </div>
           </div>
@@ -82,4 +72,4 @@ const Ags = () => {
   )
 }
 
-export default Ags
+export default SRStudios
