@@ -1,7 +1,6 @@
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -40,16 +39,16 @@ const Contact = () => {
           <div className='w-full p-2'>
             <div className='flex items-center justify-between my-4 mx-auto w-[80%] sm:w-[60%]'>
               <div className='rounded-full shadow-sm shadow-stone-400 hover:shadow-stone-700 p-3 cursor-pointer ease-in duration-300'>
-                <FaLinkedinIn />
+                <a href='https://www.linkedin.com/in/steelecreative/' aria-label='Linked In'><FaLinkedinIn /></a>
               </div>
               <div className='rounded-full shadow-sm shadow-stone-400 hover:shadow-stone-700 p-3 cursor-pointer ease-in duration-300'>
-                <FaGithub />
+                <a href='https://github.com/idowebthings/steelecreative' aria-label='visit my github'><FaGithub /></a>
               </div>
               <div className='rounded-full shadow-sm shadow-stone-400 hover:shadow-stone-700 p-3 cursor-pointer ease-in duration-300'>
-                <AiOutlineMail />
+              <a href='https://twitter.com/steelecreative' aria-label='let us tweet'><FaTwitter /></a>
               </div>
               <div className='rounded-full shadow-sm shadow-stone-400 hover:shadow-stone-700 p-3 cursor-pointer ease-in duration-300'>
-                <BsFillPersonFill />
+                <a href='mailto:dylan@steelecreative.com' aria-label='email me!'><AiOutlineMail /></a>
               </div>
             </div>
           </div>
