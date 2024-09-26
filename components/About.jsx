@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className='col-span-2'>
           <h2>Hi, my name is Dylan!</h2>
-          <p>My name is Dylan Steele and I create. My entire life has been driven by the need to create. In pursuit of that passion, my creativity has pushed me into any number of art forms, from illustration to writing to music. But for the last 15 years, my focus has been on website development and digital design.</p>
+          <p>My name is Dylan Steele and I love to create. My entire life has been driven by the need to create. In pursuit of that passion, my creativity has pushed me into any number of art forms, from illustration to writing to music. But for the last 15 years, my focus has been on website development and digital design.</p>
           <p>Creativity inspires everything I do, not just visually, but how I approach every aspect of every project. Creativity is thinking outside the box to fulfill a client&apos;s needs, whether it is finding a new way to reach a customer, finding a better way to code a solution, or finding inspiration in the unlikeliest of places.</p>
           <p>Put my creativity to work for you. <Link href='/contact'>Contact me today</Link> and let&apos;s get started.</p>          
         </div>
